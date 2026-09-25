@@ -16,6 +16,18 @@
 | Nick 的成功包含 sector / institution / mobility beta | Case-study synthesis | ONS、UK funding history、UW biography、US fusion policy | individual anecdote，不能做因果外推 |
 | Household housing timing 会影响长期 wealth outcome | Evidence / Hypothesis | housing wealth / LTV / timing 文献 | 国家与制度差异很大 |
 | Asset recovery 通常先于 cohort recovery | Synthesis | financial-market + labor-scarring 文献 | 不是机械固定顺序 |
+| 高 household leverage 会放大 recession 中的消费与就业下滑 | Evidence | Mian & Sufi；Fed；BoE | mortgage institution 与 policy response 会改变强度 |
+| UK 高负债家庭在 2007 后 spending cut 更大 | Evidence | Bunn & Rostom 2015 | 不能机械外推到所有国家 |
+| private-market reported volatility 较低可能部分来自 price-discovery lag | Evidence / Synthesis | BoE private-market risk work + illiquidity literature | reported NAV 稳定不等于 fundamental risk 高低的唯一解释 |
+| private-credit redemption pressure 一定会引发 public-market fire sale | **证据不足 / 条件命题** | liquidity mechanism 存在，但取决于 fund structure | redemption terms、cash buffer、bank lines、mandate 决定是否跨市场卖出 |
+| local stock wealth shocks 会影响 nontradable employment / payroll | Evidence | Chodorow-Reich et al. | 地区财富结构与 monetary-policy response 会影响量级 |
+| Housing wealth shock 会通过 collateral / borrowing 进入 consumption | Evidence | Mian & Sufi；Case-Shiller-Quigley；BoE 2026 | household heterogeneity 很大 |
+| Customer Beta 可稳定预测单家商户 revenue | Hypothesis / Framework | wealth-effect 文献支持上游机制 | 需要真实 customer mix、POS、foot-traffic 验证 |
+| New Zealand 长期 current-account deficit 依赖持续资本流入融资 | Evidence | RBNZ 1998/2002/2010 | deficit 本身不是危机充分条件 |
+| AI 对 novice worker 的 productivity gain 可高于 senior | Evidence | Brynjolfsson-Li-Raymond | customer-support setting，不能机械推广 |
+| AI adoption 已导致全面 junior employment collapse | **不成立为当前一般结论** | Stanford 2025–2026 综述认为 aggregate effect 仍小 | 局部 AI-exposed 22–25 岁与 workforce composition 有压力信号 |
+| AI adoption 可能降低 junior share 并提高 senior share | Emerging Evidence | Chandar & Klein Teeselink 2026 | junior share 下降主要由 senior growth 驱动，不等于 junior absolute employment collapse |
+| AI 最终会造成未来 senior shortage | Hypothesis | human-capital pipeline mechanism | 需要多年 longitudinal promotion / training / workforce-stock data |
 
 ## 使用规则
 
