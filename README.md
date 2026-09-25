@@ -284,6 +284,11 @@ Nick 的案例尤其值得研究：
 2. [美国 Recession Entrants：坏年份毕业，为什么会留下工资与职业轨迹 scar](cases/02_us_recession_entrants.md)
 3. [中国住房 Cohort：1970 vs 1993，不是同一个“28 岁买房”](cases/03_china_housing_cohorts.md)
 4. [《人生七年》中的 Nick Hitchon：个人 alpha、时代 beta 与跨市场逃逸](cases/04_up_series_nick_hitchon.md)
+5. [2008 住房—杠杆—去杠杆：为什么资产价格先跌，家庭多年后才修复](cases/05_2008_housing_deleveraging.md)
+6. [Private Credit 与 Liquidity Mismatch：慢资产的压力为什么会泄到快市场](cases/06_private_credit_liquidity_mismatch.md)
+7. [Local Business Customer Beta：为什么宏观复苏穿过客群以后才变成营业额](cases/07_local_business_customer_beta.md)
+8. [New Zealand External Balance：账永远能平，但维持这套账的价格会变](cases/08_new_zealand_external_balance.md)
+9. [AI-era Junior Pipeline：AI 是 apprenticeship accelerator，还是 human-capital cannibalization？](cases/09_ai_junior_pipeline.md)
 
 完整案例索引见 [cases/README.md](cases/README.md)。
 
