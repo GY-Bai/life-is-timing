@@ -24,6 +24,8 @@ Shock
 | [Northern Rock Funding Regime](10_uk_northern_rock_funding_regime.md) | 为什么 funding market 会先于全面 macro collapse 暴露 regime shift？ | A + B |
 | [英国代际财富](11_uk_intergenerational_wealth.md) | 为什么同样年龄的不同 cohort 会积累出不同住房与财富轨迹？ | A + B |
 | [Oil Underinvestment](12_oil_underinvestment_supply_lags.md) | 为什么多年低 capex 会让未来 shock 更容易通过价格释放？ | A + B |
+| [Great Depression Cohorts](13_great_depression_cohort_timing.md) | 为什么同一场 Depression 在 12 岁与 4 岁时会进入完全不同的人生机制？ | A + B |
+| [Housing Beliefs / Experience Effects](14_housing_beliefs_experience_effects.md) | 为什么 local housing sample path 会被写进 aggregate belief？ | A + B |
 
 ## A / B / C 含义
 
@@ -41,10 +43,10 @@ Shock
 下一阶段优先考虑：
 
 ```text
-Great Depression / cohort timing
-→ Age–Period–Cohort identification
-→ housing expectations / experience effects 的更多跨国证据
+APC / event-study 的可复用 research template
+→ housing expectations 的 Canada / Netherlands / UK replication
 → commodity underinvestment 的 metals / mining 对照
+→ inheritance timing / family transfer
 → customer beta 的真实企业 / POS case
 ```
 
