@@ -19,7 +19,13 @@
    规定数字、因果措辞、版本与 derived value 的核验标准。
 
 5. [P0 Verified Claims](P0_VERIFIED_CLAIMS.md)  
-   第一批定量 / 强断言的逐条核验记录。
+   第一批定量 / 强断言的逐条核验记录；C014、C020、C025 已推进到 L2 design-level。
+
+6. [P0 Claims Registry](P0_CLAIMS_REGISTRY.csv)  
+   机器可读的 P0 claim/source/version metadata。
+
+7. [Verification Levels](VERIFICATION_LEVELS.md)  
+   统一定义 L0–L3，从“找到来源”到“本地复现”。
 
 ## 核心原则
 
