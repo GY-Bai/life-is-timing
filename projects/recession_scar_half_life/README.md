@@ -1,6 +1,6 @@
 # Project 01｜Recession Scar Half-life
 
-> Phase II status: **ACTIVE — design locked, Japan extraction verified; cross-country extraction in progress**  
+> Phase II status: **ACTIVE — Japan / US / Finland exact extraction verified; Canada / Netherlands in progress**  
 > Primary target: **R3 Entry–Re-entry Hysteresis**
 
 这个项目不再问：
@@ -79,14 +79,16 @@ long-run asymptote
 - source registry；
 - effect-curve extraction schema；
 - Kondo 2024 Tables 2–3 exact extraction；
-- first descriptive scar half-life metrics；
+- Kahn 2010 Table 4 fitted wage curves；
+- Päällysaho 2017 Tables 2–3 annual earnings curves；
+- descriptive scar half-life metrics；
 - extraction correction log；
 - half-life estimator skeleton；
 - local metadata audit。
 
 ### 尚未完成
 
-- 从 Kahn / Oreopoulos / van den Berge / Päällysaho 提取完整 event-time coefficients；
+- 从 Oreopoulos / van den Berge 提取完整 event-time coefficients；
 - cross-study normalized path；
 - US public-data replication；
 - restricted-microdata replication；
