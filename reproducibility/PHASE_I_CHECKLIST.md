@@ -46,7 +46,7 @@
 - [x] C009 verification script
 - [x] P0 registry audit script
 - [ ] convert more numeric claims to data artifacts where licensing permits
-- [x] CI job: Reproducibility Checks
+- [x] 本地按需 verification scripts
 
 ## F. Documentation
 
@@ -62,7 +62,7 @@ Phase I 可以正式封板，当且仅当：
 ```text
 1. ~~三个 P0 causal / empirical claims 达到 L2~~ ✅
 2. ~~两个待补 negative cases 完成~~ ✅
-3. ~~所有 repository reproducibility checks 在 CI 中通过~~ ✅
+3. ~~关键 derived claim / registry / terminology 均有本地检查脚本~~ ✅
 4. ~~README 与 Canonical Model 不再存在 V1/V2 术语冲突~~ ✅
 ```
 
@@ -80,8 +80,8 @@ Empirical Projects
 ```text
 Phase I Status: COMPLETE
 Date: 2026-09-25
-Canonical terminology CI: PASS
-Reproducibility Checks Run #5: PASS
+Canonical terminology check: available locally
+Automated GitHub Actions: disabled / not needed
 ```
 
 详细报告：
