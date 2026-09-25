@@ -292,6 +292,8 @@ Nick 的案例尤其值得研究：
 10. [Northern Rock：真正的“金丝雀”不是房价，而是 funding regime 先断了](cases/10_uk_northern_rock_funding_regime.md)
 11. [英国代际财富：不是“年轻人不储蓄”，而是不同 cohort 面对不同 return regime](cases/11_uk_intergenerational_wealth.md)
 12. [Oil Underinvestment：快价格如何替慢产能承担调整](cases/12_oil_underinvestment_supply_lags.md)
+13. [Great Depression Cohorts：同一场大萧条，为什么 12 岁和 4 岁不是同一场冲击](cases/13_great_depression_cohort_timing.md)
+14. [Housing Beliefs：为什么人会把附近几年的房价，当成“房地产规律”](cases/14_housing_beliefs_experience_effects.md)
 
 完整案例索引见 [cases/README.md](cases/README.md)。
 
@@ -303,6 +305,9 @@ Nick 的案例尤其值得研究：
 
 1. [Life Course Theory：人生时钟与历史时钟为什么必须一起看](foundations/01_life_course_theory.md)
 2. [Experience Effects：为什么人会把自己的 sample path 当成世界规律](foundations/02_experience_effects.md)
+3. [Age–Period–Cohort：为什么“某一代人更惨”不是一个容易识别的命题](foundations/03_age_period_cohort_identification.md)
+
+完整索引见 [foundations/README.md](foundations/README.md)。
 
 这两条理论分别支撑两个最核心的判断：
 
@@ -407,6 +412,8 @@ Shock
 ### D. 研究纪律
 
 - [Research Status：研究状态与证据分层](RESEARCH_STATUS.md) —— 区分成熟文献、跨领域 synthesis 与待验证假设，避免把“合理机制”写成“已经证明”。
+- [Identification Guide：这个 repo 如何避免把故事当因果](methods/IDENTIFICATION_GUIDE.md) —— 强制区分 observation、association、causal evidence、synthesis 与 hypothesis。
+- [Methods 索引](methods/README.md)
 
 这些专题最终围绕同一条主线：
 
