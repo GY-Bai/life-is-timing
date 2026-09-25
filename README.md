@@ -276,6 +276,19 @@ Nick 的案例尤其值得研究：
 - family formation；
 - wealth accumulation。
 
+## 已文献化的案例研究
+
+第一批案例已经从“讨论中的例子”升级为带来源、反例和边界条件的 case study：
+
+1. [日本就业冰河期：毕业窗口如何变成制度性路径依赖](cases/01_japan_employment_ice_age.md)
+2. [美国 Recession Entrants：坏年份毕业，为什么会留下工资与职业轨迹 scar](cases/02_us_recession_entrants.md)
+3. [中国住房 Cohort：1970 vs 1993，不是同一个“28 岁买房”](cases/03_china_housing_cohorts.md)
+4. [《人生七年》中的 Nick Hitchon：个人 alpha、时代 beta 与跨市场逃逸](cases/04_up_series_nick_hitchon.md)
+
+完整案例索引见 [cases/README.md](cases/README.md)。
+
+同时建立了 [Evidence Ledger](evidence/EVIDENCE_LEDGER.md)，专门记录哪些命题是成熟 evidence、哪些是 synthesis、哪些仍只是 hypothesis。
+
 ## 对应的学术传统
 
 这个仓库并不是试图凭空发明一套人生哲学。
