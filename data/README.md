@@ -27,3 +27,16 @@ result
 连接起来。
 
 目标不是堆数据，而是让 README / cases 里的关键数字可以重新生成。
+
+
+## Phase II project data
+
+### Recession Scar Half-life
+
+```text
+data/projects/recession_scar_half_life/study_registry.csv
+data/projects/recession_scar_half_life/effect_curve_template.csv
+```
+
+其中 registry 保存 source / sample / treatment / access regime；
+effect curve 文件目前只是 extraction schema，不包含伪造或插值出来的论文系数。
