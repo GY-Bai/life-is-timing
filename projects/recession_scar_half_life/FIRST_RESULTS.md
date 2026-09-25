@@ -298,3 +298,124 @@ country → one number
 ```
 
 这也是为什么 Project 01 不会做国家 ranking。
+
+
+---
+
+# 7. Finland｜exact annual curve 已经改变了我们对“shock severity”的表述
+
+Päällysaho 2017 Table 2 给出 1988–2004 全部 cohort 的 annual earnings curve：
+
+```text
+year 1   -0.0210
+year 2   -0.0178
+year 3   -0.0163
+year 4   -0.0151
+year 5   -0.0148
+year 6   -0.0140
+year 7   -0.0125
+year 8   -0.0115
+year 9   -0.0105
+year 10  -0.0099
+```
+
+year-1 magnitude 的一半是：
+
+```text
+0.0105
+```
+
+而 year 9 恰好是：
+
+```text
+-0.0105
+```
+
+所以：
+
+```text
+descriptive magnitude half-life = 9.0 years
+```
+
+这一次不需要 interpolation。
+
+## 8. 1996–2004 cohort 的 half-life 明显更短
+
+Table 3 中 post-depression cohorts：
+
+```text
+year 1   -0.0237
+year 2   -0.0152
+year 3   -0.0123
+year 4   -0.0106
+year 5   -0.0087
+...
+```
+
+half target：
+
+```text
+0.01185
+```
+
+因此：
+
+```text
+half-life ≈ 3.26 years
+```
+
+而作者报告：
+
+```text
+5% significance horizon ≈ 5 years
+```
+
+再次验证：
+
+```text
+magnitude half-life
+≠
+significance horizon
+```
+
+## 9. 一个更重要的识别提醒
+
+表面上：
+
+```text
+All cohorts half-life = 9y
+Post-depression = 3.26y
+```
+
+很容易被写成：
+
+```text
+deep depression
+→ scar persistence × 3
+```
+
+但这还不能成立。
+
+因为 Table 3 的 sample restriction 同时改变了：
+
+```text
+cohort composition
+aggregate historical contrast
+regional identifying variation
+```
+
+所以目前只能说：
+
+> **Finland 提供了强烈的 persistence heterogeneity evidence，但还不能把 9.0 / 3.26 的差完全解释成 shock severity 的 causal effect。**
+
+这一步让 R3 的 Phase II 研究问题进一步收缩：
+
+```text
+不是：
+“哪个国家 scar 更久？”
+
+而是：
+“在什么 identification design 下，
+哪一部分 persistence 可以归因于 shock，
+哪一部分来自 institution / composition / exposure construction？”
+```
