@@ -188,3 +188,52 @@ Shock
 ```
 
 如果一个概念无法被反驳，它就不是一个有用的研究框架。
+
+
+## Phase I Freeze
+
+第一阶段理论扩张现在冻结。
+
+Canonical version：
+
+- [CANONICAL_MODEL.md](CANONICAL_MODEL.md)
+- [Candidate Regularities V2](synthesis/06_candidate_regularities_v2.md)
+
+当前优先级不再是增加案例数量，而是：
+
+```text
+Claim-level audit
+→ Primary-source verification
+→ Negative-case search
+→ Reproducibility
+```
+
+已建立：
+
+- [Claims Ledger](evidence/CLAIMS_LEDGER.md)
+- [Source Verification Protocol](evidence/SOURCE_VERIFICATION_PROTOCOL.md)
+- [P0 Verified Claims](evidence/P0_VERIFIED_CLAIMS.md)
+- [Counterevidence Ledger](evidence/COUNTEREVIDENCE_LEDGER.md)
+- [Negative Cases](negative_cases/README.md)
+- [Data layer](data/README.md)
+
+### Freeze Rule
+
+除非新材料能够：
+
+```text
+推翻
+收缩
+显著强化
+或识别 R1–R6 的边界
+```
+
+否则不再进入核心 framework。
+
+这意味着：
+
+```text
+more examples
+```
+
+本身不再构成新增核心 case 的理由。
