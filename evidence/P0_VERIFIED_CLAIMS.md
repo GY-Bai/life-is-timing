@@ -148,7 +148,7 @@ house price、unemployment、residential investment 等恶化更明显。
 **Status**
 
 ```text
-VERIFIED
+L2 DESIGN-VERIFIED
 ```
 
 **Primary research**
@@ -158,34 +158,38 @@ Atif Mian & Amir Sufi,
 
 https://www.nber.org/papers/w15896
 
-**Exact support**
+**Empirical design**
 
-Abstract 明确指出：
+论文以约 450 个美国 counties 为主要 cross-section，研究：
 
-- 2002–06 household leverage 增长大的 counties；
-- 从 2006Q3 起 durable consumption 相对下降更明显；
-- household leverage / credit-card dependence 可以解释 recession 中相当部分：
-  - consumer default；
-  - house price；
-  - unemployment；
-  - residential investment；
-  - durable consumption pattern。
+```text
+2002Q4–2006Q4 debt-to-income growth
+→ 2006–2009 local outcomes
+```
+
+并在 Tables 4–6 使用 first-difference regressions；IV specification 用 Saiz housing-supply inelasticity instrument household leverage growth。
+
+**Exact design-level support**
+
+- Table 4：一标准差 leverage growth 与约 **1/2 标准差** auto-sales decline 相关；IV coefficient 更大但更不精确；
+- Table 5：一标准差 leverage growth 对应约 **1/3 标准差** new-housing-permit decline；
+- Table 6：一标准差 leverage growth 对应约 **1/3 标准差** unemployment increase。
 
 **Language discipline**
 
-论文 abstract 使用：
+即便有 IV，repo 仍区分：
 
 ```text
-powerful statistical predictor
+cross-county causal mechanism evidence
 ```
 
-因此本 repo 不应仅凭这一篇写成：
+与：
 
 ```text
-“所有 leverage 差异都被完全因果识别”
+“household leverage 单独解释整个 aggregate Great Recession”
 ```
 
-更强 causal wording 应搭配后续 identification papers。
+后者并不由这篇论文单独建立。
 
 ---
 
@@ -305,29 +309,31 @@ local stock wealth shock 会提高 local nontradable employment / payroll；
 **Status**
 
 ```text
-VERIFIED
+L2 DESIGN-VERIFIED
 ```
 
-**Primary research**
+**Published research**
 
 Chodorow-Reich, Nenov & Simsek,  
 **Stock Market Wealth and the Real Economy: A Local Labor Market Approach**,  
-NBER WP 25959.
+*American Economic Review* 111(5), 2021, 1613–1657.  
+DOI: 10.1257/aer.20200208
 
-https://www.nber.org/papers/w25959
+https://www.aeaweb.org/articles?id=10.1257/aer.20200208
 
-**Exact support**
+**Empirical design**
 
-Abstract：
+利用 county-level stock-wealth exposure 与 aggregate stock-price movements 构造 local wealth shock；Equation (1) 估计动态 county response。Published article 同时提供 replication package。
 
-```text
-aggregate stock-price-driven local stock wealth increase
-→ local employment and payroll ↑
-in nontradable industries and total
-→ no effect on tradable-industry employment
-```
+**Design-level support**
 
-模型 implied:
+AER Table 2（h = 7 baseline）显示：
+
+- total employment / payroll response 为正；
+- nontradable employment / payroll response 更明显；
+- tradable employment response 接近零。
+
+论文模型把这些 local responses 映射为：
 
 ```text
 MPC = 3.2 cents
@@ -335,61 +341,112 @@ per $1 stock wealth
 per year
 ```
 
+因此 Customer Beta 文档可以用它支持：
+
+```text
+stock-wealth shock
+→ local nontradable demand / employment
+```
+
+但不能直接把 3.2 cents 当成任何具体餐馆的 MPC。
+
 ---
 
-## C025｜Generative AI at Work：14% / 34%
+## C025｜Generative AI at Work：published version
 
 **Claim**
 
 ```text
 GenAI assistant：
-average productivity +14%
-novice / low-skilled workers +34%
-experienced / highly skilled workers impact minimal
+preferred specification average productivity ≈ +15.2%
+low-skill / low-experience workers gain much more
 ```
 
 **Status**
 
 ```text
-VERIFIED
+L2 DESIGN-VERIFIED
 ```
 
-**Primary research**
+**Published research**
 
 Brynjolfsson, Li & Raymond,  
-**Generative AI at Work**, NBER WP 31161.
+**Generative AI at Work**, *Quarterly Journal of Economics*, 2025, 140(2): 889–942.  
+DOI: 10.1093/qje/qjae044
 
-https://www.nber.org/papers/w31161
+https://doi.org/10.1093/qje/qjae044
 
-**Population**
+**Population / design**
 
 ```text
-5,179 customer-support agents
+5,172 customer-support agents
+3,006,395 chats
+staggered AI rollout
+agent-month outcomes
 ```
 
-**Exact support**
-
-NBER abstract reports:
+Section IV 使用 standard difference-in-differences framework；preferred specification 包含：
 
 ```text
+year-month FE
+agent FE
+agent-tenure FE
+```
+
+standard errors clustered at agent level。
+
+**Design-level support**
+
+Table II, preferred specification：
+
+```text
+Post AI × Ever treated
+= +0.301 resolutions/hour
+≈ +15.2% relative to pre-treatment baseline
+```
+
+Figure III：
+
+```text
+lowest pre-treatment skill quintile
+≈ +36% resolutions/hour
+```
+
+最高技能组 productivity effect 接近零。
+
+经验曲线分析还显示：
+
+```text
+2 months tenure + AI
+≈
+>6 months tenure without AI
+```
+
+在多项 productivity outcome 上成立。
+
+**Version note**
+
+2023 NBER working-paper 版本曾报告：
+
+```text
+5,179 agents
 +14% average
 +34% novice / low-skilled
-minimal impact on experienced / highly skilled
 ```
+
+2025 *QJE* final version 更新了 sample 与 estimates。核心 repo 从现在起优先使用 published version。
 
 **Boundary**
 
 这是：
 
 ```text
-customer-support setting
+single firm
+single occupation
+particular AI tool
 ```
 
-不能直接外推为：
-
-```text
-所有职业 novice 都 +34%
-```
+不能把 +15% 或 +36% 机械外推到所有职业。
 
 ---
 
@@ -566,26 +623,31 @@ likely net global upstream result
 
 # P0 第一轮结论
 
-本轮 10 条：
+本轮 10 条 P0 claim 均已完成至少 L1 source verification。
+
+其中：
 
 ```text
-C008
-C009
 C014
-C015
-C016
 C020
 C025
-C029
-C031
-C034
 ```
 
-均已完成第一层 source verification。
+已进一步达到 **L2 design-level verification**。
 
-下一步仍需进一步提高 reproducibility：
+同时本轮发现并修复了一个典型的 version drift：
 
-1. 把 C009 的 raw series 写入 data；
-2. 对论文类 claim 保存 DOI / published version；
-3. 对 C014 等强机制命题定位到具体 table / empirical design，而不仅是 abstract；
-4. 检查所有 case 文档是否使用了与本文件完全一致的数字与措辞。
+```text
+C025
+2023 working paper: 5,179 / +14% / +34%
+→
+2025 QJE final: 5,172 / +15.2% preferred spec / low-skill quintile ≈ +36%
+```
+
+这正说明为什么 repo 需要 claim-level source version control。
+
+下一步：
+
+1. 检查其他 working-paper citation 是否已有 published version；
+2. 将更多 derived values 转成 data artifact；
+3. 继续对 P1 synthesis 建立 direct-evidence / falsification link。
