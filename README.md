@@ -309,7 +309,7 @@ Nick 的案例尤其值得研究：
 
 完整索引见 [foundations/README.md](foundations/README.md)。
 
-这两条理论分别支撑两个最核心的判断：
+这些理论共同支撑几个最核心的判断：
 
 ```text
 同一个历史事件
