@@ -105,6 +105,7 @@ long-run asymptote
 - [../../data/projects/recession_scar_half_life/derived_metrics.csv](../../data/projects/recession_scar_half_life/derived_metrics.csv)
 - [EXTRACTION_LOG.md](EXTRACTION_LOG.md)
 - [FIRST_RESULTS.md](FIRST_RESULTS.md)
+- [BASELINE_SYNTHESIS.md](BASELINE_SYNTHESIS.md)
 
 ---
 
