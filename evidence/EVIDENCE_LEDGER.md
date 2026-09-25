@@ -46,6 +46,12 @@
 | Housing expectations 对 broader macro expectations 的 pass-through 会随 tenure / country 异质 | Emerging Evidence | Central Bank of Ireland / ECB CES | 这不是 local-experience mechanism 的严格跨国 replication |
 | 美国 housing experience effect 已在所有国家完成严格 replication | **证据不足** | 目前跨国证据设计并不完全相同 | 仍需 Canada / Netherlands / Germany / UK 可比设计 |
 
+| Fastest Adjustable Margin 作为跨领域统一规律 | Candidate Regularity | 多案例重复出现，但统一 causal design 尚缺 | price controls / contract rigidity / policy buffers 可改变顺序 |
+| Slow Stock Persistence 作为统一恢复机制 | Candidate Regularity | human capital、housing、capacity、balance sheet 多领域支持 | substitution / imports / migration / recapitalization 可缩短 scar |
+| Entry × Re-entry 决定 timing scar persistence | Candidate Regularity | Japan vs US labor-market evidence 最强 | housing / fund / other domains 仍多为类比 |
+| Optionality 会降低长期 scar | Candidate Regularity / Synthesis | re-matching、mobility、refinance 等多个案例一致 | optionality 与 wealth / ability 内生相关，统一识别仍弱 |
+| 六条 candidate regularities 已被统一因果识别 | **不成立** | 当前主要是 cross-case synthesis | 需要针对每条规律的专门 empirical design |
+
 ## 使用规则
 
 以后新增任何重要命题，至少回答四个问题：
