@@ -28,16 +28,16 @@
 - [x] Verification Levels
 - [x] P0 registry machine-readable
 - [x] P0 first-pass source verification
-- [ ] C014 design-level verification
-- [ ] C020 design-level verification
-- [ ] C025 design-level verification
+- [x] C014 design-level verification
+- [x] C020 design-level verification
+- [x] C025 design-level verification
 
 ## D. Negative Cases
 
 - [x] recession scars fade
 - [x] slow stock can be bypassed
-- [ ] leverage amplification weak / delayed under protected contracts
-- [ ] optionality with high exercise cost
+- [x] leverage amplification weak / delayed under protected contracts
+- [x] optionality with high exercise cost
 
 ## E. Reproducibility
 
@@ -60,9 +60,9 @@
 Phase I 可以正式封板，当且仅当：
 
 ```text
-1. 三个 P0 causal / empirical claims 达到 L2；
-2. 两个待补 negative cases 完成；
-3. 所有本地 reproducibility scripts 可通过；
+1. ~~三个 P0 causal / empirical claims 达到 L2~~ ✅
+2. ~~两个待补 negative cases 完成~~ ✅
+3. 所有 repository reproducibility checks 在 CI 中通过；
 4. README 与 Canonical Model 不再存在 V1/V2 术语冲突。
 ```
 
