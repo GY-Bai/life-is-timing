@@ -114,6 +114,25 @@ Cross-case Synthesis
 
 详见 [synthesis/](synthesis/)。
 
+反例审计后，推荐使用 V2 表述：
+
+```text
+R1 Available-Margin
+R2 Binding Non-substitutable Stock
+R3 Entry–Re-entry Hysteresis
+R4 State-Contingent Leverage
+R5 Exercisable Optionality
+R6 Locally Adaptive, Globally Incomplete Experience
+```
+
+原 V1 保留用于记录理论演化，不删除历史版本。
+
+反例与失效边界统一记录在：
+
+- [Counterexample Audit](synthesis/05_counterexample_audit.md)
+- [Counterevidence Ledger](evidence/COUNTEREVIDENCE_LEDGER.md)
+- [Red Team Protocol](methods/RED_TEAM_PROTOCOL.md)
+
 ## 未来每篇文档的建议模板
 
 ### 1. 命题
