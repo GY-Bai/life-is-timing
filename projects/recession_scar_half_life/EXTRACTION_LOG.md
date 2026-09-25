@@ -212,3 +212,140 @@ within-paper specification sensitivity
 ```
 
 rather than averaging them.
+
+
+---
+
+## 2026-09-25｜Päällysaho 2017 Tables 2–3
+
+Source:
+
+Miika Päällysaho, **The Short- and Long-Term Effects of Graduating During a Recession: Evidence from Finland**, VATT Working Paper 96, 2017.
+
+PDF:
+https://www.doria.fi/bitstream/handle/10024/148933/wp96.pdf
+
+### Table 2 — All graduation cohorts 1988–2004
+
+Outcome:
+
+```text
+log real annual earnings
+per +1pp regional unemployment at graduation
+```
+
+Exact annual coefficients:
+
+```text
+1  -0.0210
+2  -0.0178
+3  -0.0163
+4  -0.0151
+5  -0.0148
+6  -0.0140
+7  -0.0125
+8  -0.0115
+9  -0.0105
+10 -0.0099
+```
+
+Year-1 magnitude:
+
+```text
+0.0210
+```
+
+Half target:
+
+```text
+0.0105
+```
+
+Year 9 coefficient is exactly:
+
+```text
+-0.0105
+```
+
+so descriptive magnitude half-life is:
+
+```text
+9.0 years
+```
+
+The earnings effect remains statistically significant through year 10.
+
+---
+
+### Table 3 — Depression cohorts 1988–1995
+
+```text
+-0.0103
+-0.0073
+-0.0065
+-0.0059
+-0.0064
+-0.0061
+-0.0049
+-0.0042
+-0.0034
+-0.0027
+```
+
+The path is negative but mildly non-monotone.
+
+First half-magnitude crossing:
+
+```text
+≈ 6.79 years
+```
+
+This is descriptive only.
+
+---
+
+### Table 3 — Post-depression cohorts 1996–2004
+
+```text
+-0.0237
+-0.0152
+-0.0123
+-0.0106
+-0.0087
+-0.0074
+-0.0058
+-0.0044
+-0.0043
+-0.0049
+```
+
+Half target:
+
+```text
+0.01185
+```
+
+First crossing is between years 3 and 4:
+
+```text
+descriptive half-life ≈ 3.26 years
+```
+
+The paper reports statistical significance at the 5% level only through year 5.
+
+### Identification warning
+
+The three curves are **not** simple “same treatment, different macro severity” clones.
+
+Restricting to 1988–1995 changes the identifying variation:
+
+```text
+many cohorts share the aggregate depression
+→ regional unemployment variation within those cohorts becomes relatively more important
+```
+
+Therefore:
+
+> **All-cohort persistence minus depression-only persistence cannot be interpreted as a causal estimate of “depression severity”.**
+
+This is exactly why Project 01 stores exposure definition and sample window alongside every half-life.
