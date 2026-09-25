@@ -149,9 +149,11 @@ lowest skill quintile ≈ +36%
 
 ---
 
-## 6. Reproducibility 已进入 CI
+## 6. Reproducibility 保持为本地按需验证
 
-当前自动检查：
+这个 repo 的主体是文字研究内容，因此不需要为每次 Markdown 更新触发 GitHub Actions。
+
+保留的只是轻量本地工具：
 
 ```text
 Verify derived claims
@@ -159,25 +161,14 @@ Audit P0 claim registry
 Check canonical terminology
 ```
 
-GitHub Actions：
-
-```text
-Reproducibility Checks
-Run #5
-Commit fb0e18a
-Conclusion: SUCCESS
-```
-
-Run:
-
-https://github.com/GY-Bai/life-is-timing/actions/runs/36163337650
-
-该 run 同时验证：
+它们用于需要时手动核验：
 
 - C009 derived calculation；
 - P0 registry metadata；
 - README / CANONICAL_MODEL 六条 V2 terms 一致；
 - canonical front matter 不再使用 V1 legacy labels。
+
+不会再通过 workflow 自动运行。
 
 ---
 
@@ -261,7 +252,7 @@ Source Verification
         ↓
 Minimal Reproducibility
         ↓
-CI
+Local Verification
 ```
 
 因此 Phase I 可以正式停止：
