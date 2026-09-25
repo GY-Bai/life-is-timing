@@ -5,6 +5,7 @@
 当前规范：
 
 - [Identification Guide](IDENTIFICATION_GUIDE.md)：如何区分 observation、association、causal evidence、synthesis 与 hypothesis。
+- [Red Team Protocol](RED_TEAM_PROTOCOL.md)：升级任何规律前，强制搜索 null result、sign reversal、alternative mechanism、measurement dispute 与 institutional counterexample。
 
 后续每个成熟 case 都应该能够回答：
 
