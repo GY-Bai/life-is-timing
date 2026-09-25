@@ -21,6 +21,9 @@ Shock
 | [Local Business Customer Beta](07_local_business_customer_beta.md) | 宏观复苏如何穿过 customer mix 后变成具体营业额？ | A + B |
 | [New Zealand External Balance](08_new_zealand_external_balance.md) | 账一直能平，为什么融资价格、FX 与 asset regime 仍会翻转？ | A + B |
 | [AI-era Junior Pipeline](09_ai_junior_pipeline.md) | AI 是 apprenticeship accelerator，还是 human-capital cannibalization？ | A + C |
+| [Northern Rock Funding Regime](10_uk_northern_rock_funding_regime.md) | 为什么 funding market 会先于全面 macro collapse 暴露 regime shift？ | A + B |
+| [英国代际财富](11_uk_intergenerational_wealth.md) | 为什么同样年龄的不同 cohort 会积累出不同住房与财富轨迹？ | A + B |
+| [Oil Underinvestment](12_oil_underinvestment_supply_lags.md) | 为什么多年低 capex 会让未来 shock 更容易通过价格释放？ | A + B |
 
 ## A / B / C 含义
 
@@ -38,10 +41,10 @@ Shock
 下一阶段优先考虑：
 
 ```text
-Britain 2007–09 / Northern Rock / mortgage regime
-→ 1970s–2020s intergenerational housing wealth
-→ commodity underinvestment / Currie
-→ AI apprenticeship 的 longitudinal evidence
+Great Depression / cohort timing
+→ Age–Period–Cohort identification
+→ housing expectations / experience effects 的更多跨国证据
+→ commodity underinvestment 的 metals / mining 对照
 → customer beta 的真实企业 / POS case
 ```
 
