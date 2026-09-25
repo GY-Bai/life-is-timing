@@ -49,38 +49,59 @@ https://academic.oup.com/ssjj/article/27/2/133/7727749
 
 ---
 
-### United States｜Kahn 路径是明显的长期右尾
+### United States｜Kahn Table 4 已经进入 exact fitted curve
 
-Kahn 2010 的 published text 报告：
-
-```text
-national unemployment rate +1pp
-→ initial wage loss about 6–7%
-```
-
-并且：
+Kahn 2010 Table 4 的 national OLS fitted effects：
 
 ```text
-effect magnitude falls by roughly 0.25 percentage point per year
+year 1   -0.059
+year 5   -0.050
+year 10  -0.038
+year 15  -0.026
 ```
 
-但到毕业后约 15 年：
+对应 descriptive magnitude half-life：
 
 ```text
-wage loss still about 2.5%
-and statistically significant
+≈ 13.54 years
 ```
 
-所以在我们还没有完整年度 coefficient curve 前，最安全的标签是：
+National IV：
 
 ```text
-long-persistence / right-tail case
+-0.074
+-0.059
+-0.040
+-0.022
 ```
 
-而不是人为指定一个精确 half-life。
+对应：
+
+```text
+≈ 10.83 years
+```
+
+而 state IV 到 year 15 仍约：
+
+```text
+-0.097
+vs year-1 -0.105
+```
+
+因此 magnitude half-life：
+
+```text
+> 15 years
+```
+
+这说明同一篇论文内部：
+
+> **exposure definition + identification variation 本身就会显著改变 decay estimate。**
+
+所以 US 不能被压成一个“13 年 scar”数字。
 
 Source:  
-https://www.sciencedirect.com/science/article/pii/S0927537109001018
+https://doi.org/10.1016/j.labeco.2009.09.002
 
 ---
 
@@ -190,54 +211,64 @@ https://www.wiljanvandenberge.com/research/bad-start-bad-match
 
 ---
 
-### Finland｜shock severity 是不能忽略的变量
+### Finland｜exact annual curves 显示 persistence heterogeneity，但不能直接叫“severity effect”
 
-Päällysaho 2017：
-
-全 graduation cohorts：
+Päällysaho 2017 Table 2：
 
 ```text
-annual earnings effect
-lasts at least first 10 years
-
-unemployment effect
-roughly 7 years
+all cohorts 1988–2004
+year 1  -0.0210
+...
+year 9  -0.0105
+year 10 -0.0099
 ```
 
-但如果只看：
+descriptive magnitude half-life：
 
 ```text
-1996–2004 cohorts
+9.0 years
 ```
 
-即排除 exceptionally deep early-1990s Finnish depression 后：
+Table 3 的 1996–2004 cohorts：
 
 ```text
-earnings effect
-only first ~5 years
-
-unemployment effect
-little to none
+year 1 -0.0237
+year 3 -0.0123
+year 4 -0.0106
 ```
 
-这说明：
-
-> **Shock Severity 可能同时改变 initial loss 与 persistence。**
-
-所以不能看到：
+对应：
 
 ```text
-Finland long scar
+half-life ≈ 3.26 years
 ```
 
-就全部归因于 labor-market institution。
+差异很大。
+
+但 sample restriction 同时改变：
+
+```text
+cohort composition
+aggregate historical contrast
+regional identifying variation
+```
+
+所以目前最稳妥的结论不是：
+
+```text
+“deep recession causally triples scar duration”
+```
+
+而是：
+
+> **同一国家、同一数据框架中，persistence 对 cohort window / historical regime 极其敏感；shock severity 是候选解释，但不能单独从这个对比识别。**
 
 Source:  
-https://www.doria.fi/handle/10024/148933
+https://www.doria.fi/bitstream/handle/10024/148933/wp96.pdf
 
 ---
 
-## 2. 第一轮 mechanism map
+## 2. 第一轮 mechanism map## 2. 第一轮 mechanism map
 
 目前五组 evidence 更像：
 
