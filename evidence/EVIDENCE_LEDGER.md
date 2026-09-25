@@ -38,6 +38,13 @@
 | Great Depression 对不同出生 cohort 的影响取决于事件发生时的人生阶段 | Evidence / Life-course tradition | Elder | 历史个案不能直接给现代经济 shock 参数 |
 | 2014–20 oil upstream investment 下滑降低 future supply elasticity | Evidence + Synthesis | IEA investment / supply reports | 2021–22 价格还受到 demand rebound、OPEC+、战争等多重冲击 |
 | 2021–22 oil price spike 可全部由 underinvestment 解释 | **不成立为单因果命题** | 多重供需与地缘冲击并存 | underinvestment 更适合作为 supply-elasticity 条件变量 |
+| Age、Period、Cohort 的三个独立线性趋势可以仅靠观测数据唯一识别 | **不成立** | APC identity: cohort = period - age；传统文献显示存在 rank deficiency | 任何唯一解都依赖额外 constraint / substantive assumption |
+| “某年龄组今天更差”可以直接解释为 cohort scar | **不成立** | APC identification literature | 必须区分 age、period、selection 与 persistent exposure effect |
+| 把 cohort 理解为 Age × Period interaction 与 life-course timing 一致 | Synthesis / Method | Ryder；Luo-Hodges APC-I | APC-I 不是所有研究问题的唯一正确 estimator |
+| Great Depression 对 Oakland 与 Berkeley cohorts 的影响因 age-at-exposure 不同而不同 | Evidence / Life-course tradition | Elder longitudinal archives | historical context / family structure 与现代 shock 不同 |
+| Personal local house-price experience 会影响 aggregate house-price expectations | Evidence | Kuchler & Zafar | 最直接识别主要来自美国样本 |
+| Housing expectations 对 broader macro expectations 的 pass-through 会随 tenure / country 异质 | Emerging Evidence | Central Bank of Ireland / ECB CES | 这不是 local-experience mechanism 的严格跨国 replication |
+| 美国 housing experience effect 已在所有国家完成严格 replication | **证据不足** | 目前跨国证据设计并不完全相同 | 仍需 Canada / Netherlands / Germany / UK 可比设计 |
 
 ## 使用规则
 
