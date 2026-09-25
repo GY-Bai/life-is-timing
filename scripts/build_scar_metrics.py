@@ -53,21 +53,31 @@ for key, pts in sorted(groups.items()):
         continue
 
     h, interp, status = empirical_half_life(pts)
+    ref_t, ref_b = sorted(pts)[0]
+    note = "Descriptive within-study magnitude half-life."
+    if m["event_time_basis"] == "bin_midpoint":
+        note += " Grouped experience-bin midpoints are used."
+    elif m["event_time_basis"] == "exact_fitted_year":
+        note += " Source reports fitted effects at exact selected years."
+
     out.append({
         "study_id": key[0], "country": key[1], "outcome": key[2],
         "sample_group": key[3], "specification_id": key[4],
+        "reference_event_time": f"{ref_t:g}",
+        "reference_beta": f"{ref_b:.6f}",
         "half_life_years": "" if h is None else f"{h:.6f}",
         "status": status,
         "interpolated": "" if h is None else str(interp).lower(),
-        "last_event_time": max(t for t,_ in pts),
+        "last_event_time": f"{max(t for t,_ in pts):g}",
         "event_time_basis": m["event_time_basis"],
-        "notes": "Descriptive within-study metric; bin midpoints are used where source reports grouped experience."
+        "source_table": m["source_table"],
+        "notes": note
     })
 
 fields = [
     "study_id","country","outcome","sample_group","specification_id",
-    "half_life_years","status","interpolated","last_event_time",
-    "event_time_basis","notes"
+    "reference_event_time","reference_beta","half_life_years","status",
+    "interpolated","last_event_time","event_time_basis","source_table","notes"
 ]
 with OUTPUT.open("w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=fields)
