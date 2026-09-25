@@ -91,6 +91,8 @@ long-run asymptote
 
 - Netherlands exact annual curve 暂停强行追取；保持 summary-verified，等待可核验 full-text / table source；
 - cross-study normalized path；
+- re-matching capacity operationalization；
+- Canada × Japan within-study mechanism test；
 - US public-data replication；
 - restricted-microdata replication；
 - cross-study descriptive synthesis。
@@ -112,6 +114,9 @@ long-run asymptote
 - [COMPARATIVE_RESULTS.md](COMPARATIVE_RESULTS.md)
 - [MECHANISM_MATRIX.md](MECHANISM_MATRIX.md)
 - [SOURCE_GAPS.md](SOURCE_GAPS.md)
+- [REMATCHING_CAPACITY_SPEC.md](REMATCHING_CAPACITY_SPEC.md)
+- [WITHIN_STUDY_REMATCHING_TEST.md](WITHIN_STUDY_REMATCHING_TEST.md)
+- [../../data/projects/recession_scar_half_life/mechanism_observations.csv](../../data/projects/recession_scar_half_life/mechanism_observations.csv)
 
 ---
 
