@@ -81,6 +81,39 @@ Mechanism Candidate
 
 不能写成已被证明的事实。
 
+## D｜候选跨领域规律
+
+在当前 14 个案例的横向比较中，六条机制被暂时提升为 candidate regularities：
+
+- Fastest Adjustable Margin；
+- Slow Stock Persistence；
+- Entry × Re-entry；
+- Leverage Nonlinearity；
+- Optionality Buffers Scarring；
+- Experience ≠ Historical Distribution。
+
+它们仍然属于：
+
+```text
+Cross-case Synthesis
+```
+
+而不是“已经存在统一因果识别的自然定律”。
+
+升级标准是：
+
+```text
+跨案例重复出现
++
+有直接机制证据
++
+有明确反例
++
+能提出 falsifiable prediction
+```
+
+详见 [synthesis/](synthesis/)。
+
 ## 未来每篇文档的建议模板
 
 ### 1. 命题
