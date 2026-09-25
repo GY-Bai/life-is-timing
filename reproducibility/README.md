@@ -67,15 +67,18 @@ python3 scripts/check_canonical_terms.py
 
 确保 README 与 CANONICAL_MODEL 同时使用六条 V2 canonical names。
 
-## CI
+## 验证方式
 
-仓库包含：
+这些脚本只作为**本地、按需检查工具**，不会通过 GitHub Actions 自动运行。
+
+也就是说：
 
 ```text
-.github/workflows/repro-check.yml
+研究内容变更
+≠ 自动触发 workflow
 ```
 
-用于在 GitHub Actions 可用时自动运行上述三项检查。
+需要核验时手动运行即可。
 
 Phase I 状态见：
 
