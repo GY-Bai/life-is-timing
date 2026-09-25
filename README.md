@@ -299,6 +299,23 @@ Life Cycle
 × Optionality
 ```
 
+## 专题文档
+
+这套框架已经开始拆成独立专题，避免 README 承担过多细节：
+
+1. [就业冰河期：坏年份毕业，为什么会留下多年甚至更久的疤痕](docs/01_employment_ice_age.md)
+2. [经济危机之后，市场为什么不是一起恢复：Jet Lag 与多层次复苏](docs/02_crisis_recovery_jet_lag.md)
+3. [年轻人如何利用这些规律破局：不是完美择时，而是避免被坏时点锁死](docs/03_youth_breakout_playbook.md)
+
+这三篇对应同一条主线：
+
+```text
+坏时点进入
+→ 路径依赖与 scar
+→ 不同层次异步恢复
+→ 通过 re-matching / mobility / optionality 减少长期锁定
+```
+
 ## 一个暂时的核心命题
 
 > **人生有自己的时钟，经济也有自己的时钟。真正危险的不是无法预测周期，而是误以为这两只钟彼此无关。**
