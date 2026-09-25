@@ -39,7 +39,7 @@
 | C022 | Customer Beta 可稳定预测单家 local business revenue | Hypothesis | Pending | Firm-level | needs POS / customer mix | Doc 07 / Case 07 |
 | C023 | New Zealand 自 1970s 中期长期存在 current-account deficit | Fact | Verified | NZ | RBNZ | Case 08 |
 | C024 | current-account identity 成立不代表 funding regime 稳定 | Synthesis | Verified conceptually | Open economy | accounting + RBNZ history | Case 08 |
-| C025 | GenAI 在客服场景对 novice / lower-skill worker 的 productivity gain 高于 senior | Evidence | Verified | 5,179 support agents | Brynjolfsson-Li-Raymond | Case 09 |
+| C025 | GenAI 在客服场景平均提高 productivity 约 15%，且低经验 / 低技能 worker 的增益显著更大 | Evidence | L2 Design-Verified | 5,172 support agents | Brynjolfsson-Li-Raymond, QJE 2025 | Case 09 |
 | C026 | AI adoption 已导致全面 junior employment collapse | Claim | Rejected as universal | Current labor market | Stanford review | Case 09 |
 | C027 | AI adoption 可能改变 junior / senior workforce composition | Emerging Evidence | Partial | 41-country affiliate data | Chandar & Klein Teeselink | Case 09 |
 | C028 | AI 最终会造成 future senior shortage | Hypothesis | Pending | Long horizon | no long-run panel yet | Case 09 / Doc 04 |
@@ -70,19 +70,20 @@
 
 # 下一轮核验优先级
 
-## P0｜必须逐条定位到原始页码 / 表格
+## P0｜定量 / 强断言核验
+
+第一轮 L1 已全部完成；其中以下三条已进一步达到 L2 design-level：
 
 ```text
-C008
-C009
 C014
-C015
-C016
 C020
 C025
-C029
-C031
-C034
+```
+
+其余 P0 维持 L1 / derived verification：
+
+```text
+C008 C009 C015 C016 C029 C031 C034
 ```
 
 这些含明确数字或较强经验断言。
