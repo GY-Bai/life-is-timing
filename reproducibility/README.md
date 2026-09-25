@@ -55,3 +55,28 @@ Phase I 不试图完整 replication 所有论文。
 目标更窄：
 
 > **README 和 cases 中出现的关键数字，至少可以被追踪、重算或定位到原始来源。**
+
+
+## Canonical terminology
+
+运行：
+
+```bash
+python3 scripts/check_canonical_terms.py
+```
+
+确保 README 与 CANONICAL_MODEL 同时使用六条 V2 canonical names。
+
+## CI
+
+仓库包含：
+
+```text
+.github/workflows/repro-check.yml
+```
+
+用于在 GitHub Actions 可用时自动运行上述三项检查。
+
+Phase I 状态见：
+
+[PHASE_I_CHECKLIST.md](PHASE_I_CHECKLIST.md)
