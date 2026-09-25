@@ -1,6 +1,6 @@
 # Project 01｜Recession Scar Half-life
 
-> Phase II status: **ACTIVE — design locked, extraction not yet complete**  
+> Phase II status: **ACTIVE — design locked, Japan extraction verified; cross-country extraction in progress**  
 > Primary target: **R3 Entry–Re-entry Hysteresis**
 
 这个项目不再问：
@@ -78,12 +78,16 @@ long-run asymptote
 - data-access audit；
 - source registry；
 - effect-curve extraction schema；
+- Kondo 2024 Tables 2–3 exact extraction；
+- first descriptive scar half-life metrics；
+- extraction correction log；
 - half-life estimator skeleton；
 - local metadata audit。
 
 ### 尚未完成
 
-- 从论文 table / figure 提取完整 event-time coefficients；
+- 从 Kahn / Oreopoulos / van den Berge / Päällysaho 提取完整 event-time coefficients；
+- cross-study normalized path；
 - US public-data replication；
 - restricted-microdata replication；
 - cross-study descriptive synthesis。
@@ -97,6 +101,10 @@ long-run asymptote
 - [DATA_ACCESS.md](DATA_ACCESS.md)
 - [../../data/projects/recession_scar_half_life/study_registry.csv](../../data/projects/recession_scar_half_life/study_registry.csv)
 - [../../data/projects/recession_scar_half_life/effect_curve_template.csv](../../data/projects/recession_scar_half_life/effect_curve_template.csv)
+- [../../data/projects/recession_scar_half_life/effect_curves.csv](../../data/projects/recession_scar_half_life/effect_curves.csv)
+- [../../data/projects/recession_scar_half_life/derived_metrics.csv](../../data/projects/recession_scar_half_life/derived_metrics.csv)
+- [EXTRACTION_LOG.md](EXTRACTION_LOG.md)
+- [FIRST_RESULTS.md](FIRST_RESULTS.md)
 
 ---
 
