@@ -111,3 +111,104 @@ negative entry-unemployment earnings effect is no longer statistically significa
 ```
 
 这只是 descriptive approximation，不把 bin midpoint 当成论文实际逐年估计。
+
+
+---
+
+## 2026-09-25｜Kahn 2010 Table 4
+
+Source:
+
+Lisa B. Kahn, **The Long-Term Labor Market Consequences of Graduating from College in a Bad Economy**, *Labour Economics* 17(2), 2010.
+
+Published article:
+https://doi.org/10.1016/j.labeco.2009.09.002
+
+Table extraction source used for exact cells:
+pre-publication manuscript, Table 4, printed p. 37.  
+The published article narrative reports the same qualitative path and near-identical headline magnitudes.
+
+### National OLS fitted effects
+
+```text
+Year 1   -0.059  [0.020]
+Year 5   -0.050  [0.014]
+Year 10  -0.038  [0.010]
+Year 15  -0.026  [0.012]
+```
+
+Underlying Table 4 coefficients:
+
+```text
+College UE Rate  -0.062
+College × exp    +0.002
+```
+
+### National IV fitted effects
+
+```text
+Year 1   -0.074  [0.030]
+Year 5   -0.059  [0.025]
+Year 10  -0.040  [0.020]
+Year 15  -0.022  [0.021]
+```
+
+IV uses birth-year indicators for national unemployment exposure.
+
+### State OLS fitted effects
+
+```text
+Year 1   -0.023
+Year 5   -0.022
+Year 10  -0.020
+Year 15  -0.018
+```
+
+These point estimates are not statistically significant.
+
+### State IV fitted effects
+
+```text
+Year 1   -0.105
+Year 5   -0.103
+Year 10  -0.100
+Year 15  -0.097
+```
+
+The state IV uses unemployment in the state of residence at age 14 in the modal graduation year as the proxy/instrument structure.
+
+### Derived descriptive half-life
+
+Using year-1 fitted effect as reference:
+
+```text
+National OLS  ≈ 13.54 years
+National IV   ≈ 10.83 years
+State OLS     > 15 years (right-censored by magnitude)
+State IV      > 15 years (right-censored by magnitude)
+```
+
+These are **magnitude half-lives**, not significance horizons.
+
+### Important interpretation boundary
+
+The four specifications are not four independent estimates of the same estimand.
+
+In particular:
+
+```text
+national exposure
+state exposure
+OLS
+IV
+```
+
+use different variation and can imply different local treatment effects.
+
+Therefore Project 01 keeps them as:
+
+```text
+within-paper specification sensitivity
+```
+
+rather than averaging them.
