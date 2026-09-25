@@ -430,12 +430,12 @@ Shock
 在 14 个 case 横向比较之后，项目暂时收敛出六条 **Candidate Regularities**：
 
 ```text
-R1  Fastest Adjustable Margin
-R2  Slow Stock Persistence
-R3  Entry × Re-entry
-R4  Leverage Nonlinearity
-R5  Optionality Buffers Scarring
-R6  Experience ≠ Historical Distribution
+R1  Available-Margin Principle
+R2  Binding-Stock Principle
+R3  Entry–Re-entry Hysteresis
+R4  State-Contingent Leverage Amplification
+R5  Exercisable Optionality
+R6  Locally Adaptive, Globally Incomplete Experience
 ```
 
 它们不是“定律”，而是目前跨就业、住房、金融、commodity、AI 与 life-course 案例中重复度最高、最值得继续接受反证的机制。
@@ -446,7 +446,23 @@ R6  Experience ≠ Historical Distribution
 - [Candidate Regularities](synthesis/02_candidate_regularities.md)
 - [False Friends：哪些跨领域类比不能直接画等号](synthesis/03_false_friends.md)
 - [Testable Predictions：六条规律如何被数据攻击](synthesis/04_testable_predictions.md)
+- [Counterexample Audit：六条规律在哪里失败](synthesis/05_counterexample_audit.md)
+- [Candidate Regularities V2：经过反例审计后的推荐版本](synthesis/06_candidate_regularities_v2.md)
+- [Counterevidence Ledger：反例台账](evidence/COUNTEREVIDENCE_LEDGER.md)
 - [Synthesis 索引](synthesis/README.md)
+
+经过反例审计后的 V2 不再把这些机制写成绝对规律。例如：
+
+```text
+“最流动的变量先动”
+→ “实际调整成本最低、制度上可执行的 margin 先动”
+
+“最慢 stock 决定恢复”
+→ “最慢、binding 且不可替代的 stock 决定 persistence”
+
+“更多 optionality 总是更好”
+→ “真正有效的是可执行、且不会摧毁过多已有价值的 optionality”
+```
 
 其中最重要的方法变化是：
 
