@@ -190,9 +190,9 @@ Shock
 如果一个概念无法被反驳，它就不是一个有用的研究框架。
 
 
-## Phase I Freeze
+## Phase I Complete
 
-第一阶段理论扩张现在冻结。
+第一阶段已于 **2026-09-25** 完成并封板。理论扩张保持冻结。
 
 Canonical version：
 
@@ -237,3 +237,38 @@ more examples
 ```
 
 本身不再构成新增核心 case 的理由。
+
+
+## Phase II
+
+Phase II 不再以：
+
+```text
+增加概念 / 增加案例数量
+```
+
+作为产出。
+
+进入：
+
+```text
+Empirical Projects
+```
+
+当前路线：
+
+[PHASE_II_ROADMAP.md](PHASE_II_ROADMAP.md)
+
+核心问题从：
+
+```text
+framework 能解释什么？
+```
+
+变成：
+
+```text
+哪些机制能被识别？
+哪些会失败？
+scar half-life 到底由什么决定？
+```
