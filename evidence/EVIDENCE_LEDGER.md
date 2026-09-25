@@ -28,6 +28,16 @@
 | AI adoption 已导致全面 junior employment collapse | **不成立为当前一般结论** | Stanford 2025–2026 综述认为 aggregate effect 仍小 | 局部 AI-exposed 22–25 岁与 workforce composition 有压力信号 |
 | AI adoption 可能降低 junior share 并提高 senior share | Emerging Evidence | Chandar & Klein Teeselink 2026 | junior share 下降主要由 senior growth 驱动，不等于 junior absolute employment collapse |
 | AI 最终会造成未来 senior shortage | Hypothesis | human-capital pipeline mechanism | 需要多年 longitudinal promotion / training / workforce-stock data |
+| Northern Rock 的核心脆弱性来自对 wholesale funding 的高度依赖 | Evidence | UK Treasury Committee；BoE；Northern Rock evidence | 不能等同于“所有 mortgage banks 都同样脆弱” |
+| 2007 Northern Rock 先暴露 funding regime shift，而非等到所有 mortgage losses realized | Evidence + Synthesis | 2007 funding freeze 与央行支持时间线 | housing / credit quality 仍是背景条件之一 |
+| 英国 later cohorts 较同龄前代 homeownership 更低 | Evidence | IFS；Resolution Foundation | 2020s 部分 younger millennials 已出现小幅改善 |
+| 英国 later cohorts 的财富停滞不需要假设储蓄偏好恶化 | Evidence / Model | Crawford & Sturrock lifecycle model | 模型不包含所有现实制度与家庭转移机制 |
+| Wealth Amount 与 Wealth Timing 对 life-course outcome 不等价 | Synthesis | inheritance timing + housing-entry evidence | 需要 household-panel 因果识别 |
+| 个人会把自己经历过的 stock / inflation / housing / unemployment history 写进预期 | Evidence | Malmendier-Nagel；Kuchler-Zafar | 经验权重不等于完全忽略其他信息 |
+| “被周期拷打过”必然带来更正确的 macro belief | **不成立** | Experience Effects 显示坏经历也会造成长期 bias | 历史 base rate 与制度变化仍需单独学习 |
+| Great Depression 对不同出生 cohort 的影响取决于事件发生时的人生阶段 | Evidence / Life-course tradition | Elder | 历史个案不能直接给现代经济 shock 参数 |
+| 2014–20 oil upstream investment 下滑降低 future supply elasticity | Evidence + Synthesis | IEA investment / supply reports | 2021–22 价格还受到 demand rebound、OPEC+、战争等多重冲击 |
+| 2021–22 oil price spike 可全部由 underinvestment 解释 | **不成立为单因果命题** | 多重供需与地缘冲击并存 | underinvestment 更适合作为 supply-elasticity 条件变量 |
 
 ## 使用规则
 
