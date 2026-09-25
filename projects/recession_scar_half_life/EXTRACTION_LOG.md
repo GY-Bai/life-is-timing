@@ -349,3 +349,186 @@ Therefore:
 > **All-cohort persistence minus depression-only persistence cannot be interpreted as a causal estimate of “depression severity”.**
 
 This is exactly why Project 01 stores exposure definition and sample window alongside every half-life.
+
+
+---
+
+## 2026-09-25｜Oreopoulos, von Wachter & Heisz 2012 Table 2
+
+Source:
+
+Philip Oreopoulos, Till von Wachter & Andrew Heisz, **The Short- and Long-Term Career Effects of Graduating in a Recession**, *American Economic Journal: Applied Economics* 4(1), 2012.
+
+Published PDF:
+https://oreopoulos.faculty.economics.utoronto.ca/wp-content/uploads/2020/05/oreopoulos-et-al-the-short-and-long-term-career-effects-of-graduating-in-a-recession-aej-applied-2012.pdf
+
+DOI:
+https://doi.org/10.1257/app.4.1.1
+
+### Table 2 — Full sample annual earnings
+
+Regional unemployment rate at graduation, grouped experience effects:
+
+```text
+Experience 0–1   -0.0183  [0.0020]
+Experience 4–5   -0.0089  [0.0016]
+Experience 9–10  -0.0042  [0.0016]
+```
+
+Using bin midpoints:
+
+```text
+0–1   → 0.5
+4–5   → 4.5
+9–10  → 9.5
+```
+
+and the first effect as reference:
+
+```text
+half target = 0.00915
+```
+
+the descriptive magnitude half-life is:
+
+```text
+≈ 4.39 years
+```
+
+This lines up with the authors' narrative that a typical recession's initial earnings loss halves within roughly five years and fades by about ten years, but our 4.39-year value is a separate grouped-bin interpolation metric.
+
+### Employer quality — average firm median log earnings
+
+```text
+0–1   -0.0096  [0.0012]
+4–5   -0.0042  [0.0011]
+9–10  -0.0028  [0.0012]
+```
+
+descriptive magnitude half-life:
+
+```text
+≈ 4.06 years
+```
+
+This gives a direct mechanism comparison:
+
+```text
+employer-quality gap
+and
+earnings gap
+```
+
+both shrink strongly during the first several years.
+
+The paper's text also reports that firm quality improves especially quickly during the first 3–5 years, when job mobility is elevated.
+
+---
+
+### Skill heterogeneity
+
+Annual earnings:
+
+#### Bottom predicted-earnings quintile
+
+```text
+0–1   -0.0277
+4–5   -0.0167
+9–10  -0.0161
+```
+
+By 9–10 years, magnitude is still above half the initial value:
+
+```text
+half-life > 9.5 years
+```
+
+(right-censored in our grouped metric).
+
+#### Middle quintile
+
+```text
+-0.0232
+-0.0124
+-0.0039
+```
+
+descriptive half-life:
+
+```text
+≈ 4.97 years
+```
+
+#### Top quintile
+
+```text
+-0.0147
+-0.0042
+-0.0024
+```
+
+descriptive half-life:
+
+```text
+≈ 3.30 years
+```
+
+So within the same institutional environment:
+
+```text
+Top skill
+→ faster recovery
+
+Bottom skill
+→ much more persistent scar
+```
+
+This is stronger identification for R3 than a naïve cross-country comparison, because treatment definition, data system and broad institutional setting are held much more constant.
+
+---
+
+### Employer-quality heterogeneity
+
+Average firm median log earnings:
+
+```text
+Full sample:
+-0.0096 → -0.0042 → -0.0028
+
+Bottom:
+-0.0111 → -0.0087 → -0.0126
+
+Middle:
+-0.0128 → -0.0050 → -0.0043
+
+Top:
+-0.0082 → -0.0004 → +0.0010
+```
+
+The top group closes the employer-quality gap rapidly and then changes sign.
+
+The bottom group does **not** monotonically catch up: by 9–10 years the employer-quality gap is again larger in magnitude.
+
+Therefore no single employer-quality half-life is reported for the top sign-reversal path, while the bottom group is right-censored.
+
+### Interpretation
+
+This table directly strengthens the mechanism:
+
+```text
+Re-matching Capacity
+→ Employer Upgrading
+→ Scar Decay
+```
+
+but does not prove that employer mobility is the only channel.
+
+The authors explicitly describe both:
+
+```text
+mobility toward better firms
++
+recovery within firms
+```
+
+as adjustment margins.
