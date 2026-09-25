@@ -187,7 +187,7 @@ scar half-life
 
 ## 6. Core explanatory variables
 
-先只保留六个制度 /机制变量：
+Canonical design 仍保留六个顶层制度 / 机制变量：
 
 ```text
 Entry Gate Rigidity
@@ -198,7 +198,25 @@ Education Track
 Shock Severity
 ```
 
-任何新增 explanatory variable 必须说明：
+但 Phase II-2 不再把 `Re-entry Flexibility` 当作单一 country-level scalar。
+
+它被 operationalize 为一个 mechanism vector：
+
+```text
+Re-entry Capacity
+=
+[
+Entry Gate,
+Offer Arrival / Employer Access,
+Search & Mobility Cost,
+Skill / Credential Portability,
+Time Dependence
+]
+```
+
+这不是新增五个 regularities，而是对 R3 内部变量的 measurement decomposition。
+
+任何新增 explanatory variable 仍必须说明：
 
 ```text
 它改变的是 R3 哪一个乘数？
@@ -334,3 +352,74 @@ R3 无法跨制度稳定成立
 ```
 
 项目仍然算成功。
+
+
+---
+
+## 11. Phase II-2｜Transition-based extension
+
+第一轮结果要求把：
+
+```text
+country-level flexibility
+```
+
+改写为：
+
+```text
+transition from bad initial state to better match
+```
+
+因此新增两个明确区分。
+
+### A. Mobility quantity vs mobility quality
+
+```text
+switching rate ↑
+```
+
+本身不等于：
+
+```text
+re-matching capacity ↑
+```
+
+只有当 switching 对应：
+
+```text
+employer quality ↑
+regular status ↑
+occupation / sector match ↑
+earnings path ↑
+```
+
+时，才更接近 R3 所说的 alternative adjustment route。
+
+### B. Entry sensitivity vs cohort outcome level
+
+Japan younger cohorts 表明：
+
+```text
+entry-unemployment coefficient weakens
+```
+
+可以同时发生于：
+
+```text
+post-ice-age cohort outcome level
+仍然没有明显恢复
+```
+
+因此以后必须分别记录：
+
+```text
+cyclical entry sensitivity
+structural cohort level
+```
+
+R3 主要解释前者的 persistence，不能自动解释后者。
+
+详见：
+
+- [REMATCHING_CAPACITY_SPEC.md](REMATCHING_CAPACITY_SPEC.md)
+- [WITHIN_STUDY_REMATCHING_TEST.md](WITHIN_STUDY_REMATCHING_TEST.md)
