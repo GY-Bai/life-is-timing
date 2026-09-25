@@ -289,10 +289,35 @@ Nick 的案例尤其值得研究：
 7. [Local Business Customer Beta：为什么宏观复苏穿过客群以后才变成营业额](cases/07_local_business_customer_beta.md)
 8. [New Zealand External Balance：账永远能平，但维持这套账的价格会变](cases/08_new_zealand_external_balance.md)
 9. [AI-era Junior Pipeline：AI 是 apprenticeship accelerator，还是 human-capital cannibalization？](cases/09_ai_junior_pipeline.md)
+10. [Northern Rock：真正的“金丝雀”不是房价，而是 funding regime 先断了](cases/10_uk_northern_rock_funding_regime.md)
+11. [英国代际财富：不是“年轻人不储蓄”，而是不同 cohort 面对不同 return regime](cases/11_uk_intergenerational_wealth.md)
+12. [Oil Underinvestment：快价格如何替慢产能承担调整](cases/12_oil_underinvestment_supply_lags.md)
 
 完整案例索引见 [cases/README.md](cases/README.md)。
 
 同时建立了 [Evidence Ledger](evidence/EVIDENCE_LEDGER.md)，专门记录哪些命题是成熟 evidence、哪些是 synthesis、哪些仍只是 hypothesis。
+
+## 理论母体
+
+在继续增加案例之前，repo 已开始把最重要的学术母体单独整理出来：
+
+1. [Life Course Theory：人生时钟与历史时钟为什么必须一起看](foundations/01_life_course_theory.md)
+2. [Experience Effects：为什么人会把自己的 sample path 当成世界规律](foundations/02_experience_effects.md)
+
+这两条理论分别支撑两个最核心的判断：
+
+```text
+同一个历史事件
+@ 不同人生阶段
+→ 不同长期结果
+```
+
+以及：
+
+```text
+Personal Experience
+≠ Historical Distribution
+```
 
 ## 对应的学术传统
 
