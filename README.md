@@ -425,6 +425,37 @@ Shock
 → re-matching / mobility / liquidity / optionality 决定 scar 是否固化
 ```
 
+## 跨案例综合：目前收敛出的六条候选规律
+
+在 14 个 case 横向比较之后，项目暂时收敛出六条 **Candidate Regularities**：
+
+```text
+R1  Fastest Adjustable Margin
+R2  Slow Stock Persistence
+R3  Entry × Re-entry
+R4  Leverage Nonlinearity
+R5  Optionality Buffers Scarring
+R6  Experience ≠ Historical Distribution
+```
+
+它们不是“定律”，而是目前跨就业、住房、金融、commodity、AI 与 life-course 案例中重复度最高、最值得继续接受反证的机制。
+
+详细比较：
+
+- [Cross-Case Mechanism Matrix](synthesis/01_cross_case_mechanism_matrix.md)
+- [Candidate Regularities](synthesis/02_candidate_regularities.md)
+- [False Friends：哪些跨领域类比不能直接画等号](synthesis/03_false_friends.md)
+- [Testable Predictions：六条规律如何被数据攻击](synthesis/04_testable_predictions.md)
+- [Synthesis 索引](synthesis/README.md)
+
+其中最重要的方法变化是：
+
+```text
+从“这个案例能不能被框架解释”
+转向
+“什么数据最容易让这个框架失败”
+```
+
 ## 一个暂时的核心命题
 
 > **人生有自己的时钟，经济也有自己的时钟。真正危险的不是无法预测周期，而是误以为这两只钟彼此无关。**
