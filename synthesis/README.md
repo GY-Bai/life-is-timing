@@ -15,6 +15,9 @@
 3. [False Friends](03_false_friends.md)  
    记录最容易被过度类比的地方，防止 framework 变成“什么都能解释”。
 
+4. [Testable Predictions](04_testable_predictions.md)  
+   把六条候选规律转化为 event study、cross-country、LTV、re-entry、optionality 等可证伪预测。
+
 这一步的研究原则：
 
 ```text
