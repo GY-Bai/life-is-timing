@@ -105,48 +105,81 @@ https://doi.org/10.1016/j.labeco.2009.09.002
 
 ---
 
-### Canada｜re-matching mechanism 最直接
+### Canada｜Table 2 直接把 re-matching mechanism 拆开了
 
-Oreopoulos、von Wachter、Heisz 2012 的最终 AEJ 版本：
-
-```text
-unlucky graduates
-→ persistent earnings declines lasting about ten years
-```
-
-其关键机制不是：
+Oreopoulos、von Wachter、Heisz 2012 的 main regional specification，在 Table 2 给出 full-sample annual earnings：
 
 ```text
-same employer slowly restores wage
+experience 0–1   -0.0183
+experience 4–5   -0.0089
+experience 9–10  -0.0042
 ```
 
-而是：
+使用 grouped midpoint 做 descriptive magnitude half-life：
 
 ```text
-start at lower-paying employers
-→ gradual mobility
-→ better firms
-→ partial catch-up
+≈ 4.39 years
 ```
 
-作者早期 / complementary working-paper summary 进一步估计：
+同一张表里的 average firm median log earnings：
 
 ```text
-firm quality + job mobility
-can account for roughly 40–50%
-of losses and catch-up
+-0.0096
+-0.0042
+-0.0028
 ```
 
-这使 Canada 成为 R3 中：
+对应：
 
-# Alternative Adjustment Routes
+```text
+employer-quality half-life ≈ 4.06 years
+```
 
-最直接的 mechanism anchor。
+而作者在正文中明确描述：
 
-Sources:
+```text
+bad entry
+→ lower-quality employer
+→ first 3–5 years higher mobility
+→ rapid employer-quality improvement
+→ later recovery slows
+```
 
-https://www.aeaweb.org/articles?id=10.1257/app.4.1.1  
-https://www.iza.org/publications/dp/3578/privacy-policy
+因此 Canada 不只是“scar 大约十年”的案例，而是目前对 R3 中：
+
+```text
+Alternative Adjustment Routes
+```
+
+最直接的 mechanism evidence 之一。
+
+更重要的是，同一张表内部已经出现巨大 skill heterogeneity：
+
+```text
+Bottom predicted-earnings quintile:
+half-life > 9.5 years
+
+Middle:
+≈ 4.97 years
+
+Top:
+≈ 3.30 years
+```
+
+Bottom group 的 employer-quality gap 到 9–10 年甚至没有单调缩小：
+
+```text
+-0.0111
+→ -0.0087
+→ -0.0126
+```
+
+这意味着：
+
+> **“re-entry flexibility”不能只被定义成国家制度属性；它还是 worker-specific access to better offers、mobility 与 employer upgrading 的函数。**
+
+Source:  
+https://doi.org/10.1257/app.4.1.1
 
 ---
 
@@ -268,7 +301,7 @@ https://www.doria.fi/bitstream/handle/10024/148933/wp96.pdf
 
 ---
 
-## 2. 第一轮 mechanism map## 2. 第一轮 mechanism map
+## 2. 第一轮 mechanism map
 
 目前五组 evidence 更像：
 
@@ -280,7 +313,8 @@ US:
 long right-tail persistence
 
 Canada:
-employer upgrading is a major recovery route
+employer upgrading is measurable;
+top-skill recovery is much faster than bottom-skill recovery
 
 Netherlands:
 education track changes decay speed
@@ -390,46 +424,48 @@ same transition matrix
 
 ### Priority 1
 
-Kahn 2010：
-
-```text
-找到 / 提取 annual experience interaction coefficients
-```
-
-### Priority 2
-
-Oreopoulos et al. 2012：
-
-```text
-earnings
-employer quality
-mobility
-```
-
-三条 curve 尽量来自同一 published specification。
-
-### Priority 3
-
 van den Berge 2018：
 
 ```text
 academic vs vocational
-annual wage curve
+annual wage path
 +
-mismatch / employer-quality curve
+mismatch / employer-quality path
 ```
 
-### Priority 4
-
-Päällysaho 2017：
+尽量从 published table / figure 取得可核验点；如果只能获得作者 summary，就保持：
 
 ```text
-all cohorts
-vs
-1996–2004
+summary-only
 ```
 
-用同一 outcome 比较 normalized decay。
+而不反推不存在的 annual coefficients。
+
+### Priority 2
+
+把目前 Japan / US / Canada / Finland 已核的 paths 统一成：
+
+```text
+within-study normalized curves
+```
+
+但每条 curve 必须保留：
+
+```text
+sample
+treatment
+outcome
+specification
+event-time basis
+```
+
+### Priority 3
+
+开始回答一个比“哪个国家 scar 更长”更窄的问题：
+
+> **同一个制度内部，哪些人拥有更快的 re-matching？**
+
+Canada skill quintiles 与 Japan education / cohort split 是当前最有价值的内部比较。
 
 ---
 
