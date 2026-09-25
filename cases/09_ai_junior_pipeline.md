@@ -10,22 +10,25 @@
 
 ## 1. Path A：AI 可能帮助新人更快学习
 
-Brynjolfsson、Li、Raymond 研究 5,179 名 customer-support agents，观察 generative-AI assistant 的 staggered rollout。
+Brynjolfsson、Li、Raymond 的最终发表版本研究 **5,172 名 customer-support agents**，利用 generative-AI assistant 的 staggered rollout。
 
-结果：
+最终发表在 *QJE* 的 preferred specification 显示：
 
 ```text
 average productivity
-≈ +14%
+≈ +15.2%
 ```
 
-而 novice / low-skilled workers：
+异质性很强：
 
 ```text
-≈ +34%
+lowest pre-treatment skill quintile
+≈ +36% resolutions per hour
 ```
 
-experienced / highly skilled workers 的增益很小。
+而最高技能组的 productivity effect 接近零；新手与低技能员工整体受益明显更大。
+
+> 版本说明：2023 NBER working-paper 版本曾报告 5,179 agents、平均 +14%、novice / low-skilled +34%。2025 *QJE* 最终版更新为 5,172 agents、平均约 +15%，因此本 repo 以后优先使用 published version。
 
 作者给出的一个重要解释是：
 
@@ -375,8 +378,10 @@ Replace Learning
 
 ## 11. 证据与来源
 
-1. Erik Brynjolfsson, Danielle Li & Lindsey R. Raymond, **Generative AI at Work**, NBER.  
-   https://www.nber.org/papers/w31161
+1. Erik Brynjolfsson, Danielle Li & Lindsey R. Raymond, **Generative AI at Work**, *Quarterly Journal of Economics*, 2025, 140(2): 889–942.  
+   https://doi.org/10.1093/qje/qjae044
+
+   Working-paper history: https://www.nber.org/papers/w31161
 
 2. Stanford Digital Economy Lab, **AI and Labor Markets: What We Know and Don't Know**, 2025.  
    https://digitaleconomy.stanford.edu/news/ai-and-labor-markets-what-we-know-and-dont-know/
