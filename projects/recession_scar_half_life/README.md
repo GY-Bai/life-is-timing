@@ -79,7 +79,7 @@ long-run asymptote
 - source registry；
 - effect-curve extraction schema；
 - half-life estimator skeleton；
-- CI metadata audit。
+- local metadata audit。
 
 ### 尚未完成
 
