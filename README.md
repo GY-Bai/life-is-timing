@@ -262,9 +262,9 @@ Counterevidence
 
 ---
 
-## Phase I Freeze
+## Phase I Complete
 
-第一阶段现在进入稳定化，而不是继续无限扩张。
+第一阶段已于 **2026-09-25** 完成封板。核心理论不再继续无限扩张。
 
 除非新材料能够：
 
@@ -303,6 +303,31 @@ Claim Audit
 - [Phase I Closure Checklist](reproducibility/PHASE_I_CHECKLIST.md)
 
 仓库也加入最小 CI 检查，用于验证 derived claim、P0 registry 与 canonical terminology。
+
+---
+
+## Phase II：Empirical Projects
+
+下一阶段路线已经固定在：
+
+[PHASE_II_ROADMAP.md](PHASE_II_ROADMAP.md)
+
+项目入口：
+
+[projects/README.md](projects/README.md)
+
+Phase I 完成报告：
+
+[reproducibility/PHASE_I_REPORT.md](reproducibility/PHASE_I_REPORT.md)
+
+Phase II 的目标不再是“找到更多能解释的故事”，而是：
+
+```text
+Measure
+Identify
+Falsify
+Revise
+```
 
 ---
 
