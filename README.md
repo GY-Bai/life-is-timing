@@ -299,21 +299,75 @@ Life Cycle
 × Optionality
 ```
 
+## 五层模型
+
+随着案例增加，这个项目已经从“就业冰河期 + Jet Lag”扩展成一个更一般的五层框架：
+
+```text
+Layer 1 — Shock
+宏观 / 金融 / 技术 / 地缘冲击
+        ↓
+Layer 2 — Adjustment Margin
+系统先让哪个变量动？
+        ↓
+Layer 3 — Stock
+哪些存量无法快速重建？
+        ↓
+Layer 4 — Life-cycle Exposure
+冲击发生在你人生的哪个窗口？
+        ↓
+Layer 5 — Optionality
+你还能不能换轨、退出、等待、重新进入？
+```
+
+它试图回答一个更一般的问题：
+
+> **当系统遭遇冲击时，哪个变量最容易先动？哪个变量动不了？当快变量的调整能力耗尽以后，压力又会传给谁？**
+
+因此可以暂时写成：
+
+```text
+Long-run Outcome
+=
+Shock
+× Adjustment Mechanism
+× Stock Constraint
+× Life Stage
+× Optionality
+```
+
+更详细的总框架见：
+
+- [00｜核心框架：Shock → Adjustment Margin → Stock → Life Stage → Optionality](docs/00_core_framework.md)
+
 ## 专题文档
 
-这套框架已经开始拆成独立专题，避免 README 承担过多细节：
+### A. 就业、人生窗口与破局
 
 1. [就业冰河期：坏年份毕业，为什么会留下多年甚至更久的疤痕](docs/01_employment_ice_age.md)
 2. [经济危机之后，市场为什么不是一起恢复：Jet Lag 与多层次复苏](docs/02_crisis_recovery_jet_lag.md)
 3. [年轻人如何利用这些规律破局：不是完美择时，而是避免被坏时点锁死](docs/03_youth_breakout_playbook.md)
+4. [Insider–Outsider 与人力资本管线：为什么冲击会集中到“还没上车的人”](docs/04_insider_outsider_and_human_capital_pipeline.md)
+5. [Career as Asset：年轻人真正配置的是 Human Capital Portfolio](docs/09_career_as_asset.md)
 
-这三篇对应同一条主线：
+### B. 危机传导、慢变量与系统约束
+
+6. [Adjustment Margin 与流动性踩踏：为什么最先跌的未必是最差的资产](docs/05_adjustment_margins_and_liquidity.md)
+7. [Revenge of Underinvestment：重资产、人才与所有慢变量的共同结构](docs/06_revenge_of_underinvestment.md)
+8. [External Balance 与 Regime Shift：账永远能平，价格替你调整](docs/08_external_balance_and_regime_shift.md)
+
+### C. 宏观如何进入普通人的现金流
+
+9. [Customer Beta：为什么同一条街上的两家店，危机后的恢复速度可以完全不同](docs/07_customer_beta_and_local_business.md)
+
+这些专题最终围绕同一条主线：
 
 ```text
 坏时点进入
-→ 路径依赖与 scar
-→ 不同层次异步恢复
-→ 通过 re-matching / mobility / optionality 减少长期锁定
+→ 最快的 adjustment margin 先吸收冲击
+→ 慢变量形成 stock constraint
+→ 不同 life stage 承受不同损伤
+→ re-matching / mobility / liquidity / optionality 决定 scar 是否固化
 ```
 
 ## 一个暂时的核心命题
