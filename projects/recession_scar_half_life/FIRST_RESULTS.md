@@ -1,7 +1,7 @@
 # First Results｜Project 01
 
-> 状态：**只包含 Japan Kondo 2024 的首批 verified extraction。**  
-> 这不是跨国结论，也不是 R3 的最终检验。
+> 状态：**Japan / US / Finland / Canada 已有 verified table-level extraction；Netherlands 仍以 published summary 为主。**  
+> 这不是国家排名，也不是 R3 的最终检验。
 
 ## 1. 首个可计算结果
 
@@ -190,18 +190,17 @@ mechanism placeholder
 
 ## 4. 下一步
 
-接下来优先完成：
+Japan、US、Finland 与 Canada 已经有可核验的 effect path。
+
+下一步优先：
 
 ```text
-Kahn 2010
-Oreopoulos et al. 2012
 van den Berge 2018
-Päällysaho 2017
+→ 尽量取得 academic / vocational annual wage path
+→ 再做 normalized within-study comparison
 ```
 
-的 event-time extraction。
-
-只有在至少三种制度环境存在可比较 curve 后，才开始画 cross-study normalized paths。
+在 treatment / specification 没有被明确记录前，不做 pooled cross-country regression。
 
 
 ---
@@ -418,4 +417,124 @@ regional identifying variation
 “在什么 identification design 下，
 哪一部分 persistence 可以归因于 shock，
 哪一部分来自 institution / composition / exposure construction？”
+```
+
+
+---
+
+# 10. Canada｜同一制度内部，re-matching speed 已经表现出巨大异质性
+
+Oreopoulos、von Wachter、Heisz 2012 Table 2 的 full-sample annual-earnings effects：
+
+```text
+experience 0–1   -0.0183
+experience 4–5   -0.0089
+experience 9–10  -0.0042
+```
+
+以 grouped midpoint：
+
+```text
+0.5, 4.5, 9.5
+```
+
+构造 descriptive magnitude half-life：
+
+```text
+≈ 4.39 years
+```
+
+这与作者的文字结论——典型 recession 的初始 earnings loss 大约五年减半、十年左右消退——在量级上相容。
+
+## 11. Employer quality 的恢复几乎同步发生
+
+Average firm median log earnings：
+
+```text
+-0.0096
+-0.0042
+-0.0028
+```
+
+descriptive half-life：
+
+```text
+≈ 4.06 years
+```
+
+论文同时指出，毕业时受到坏 labor-market shock 的人更可能先进入低质量 employer；之后前 3–5 年 employer quality 改善最快，而这一阶段也正是 job mobility 较高的时候。
+
+所以 Canada 目前是 R3 最直接的 mechanism case：
+
+```text
+Bad Entry
+→ Lower-quality Employer
+→ Job Mobility
+→ Employer Upgrading
+→ Partial Earnings Catch-up
+```
+
+## 12. 最重要的结果其实来自 skill heterogeneity
+
+Annual earnings 的 grouped path：
+
+```text
+Bottom quintile:
+-0.0277 → -0.0167 → -0.0161
+half-life > 9.5y
+
+Middle:
+-0.0232 → -0.0124 → -0.0039
+half-life ≈ 4.97y
+
+Top:
+-0.0147 → -0.0042 → -0.0024
+half-life ≈ 3.30y
+```
+
+于是同一个国家、同一套数据、同一种 regional-unemployment exposure 下：
+
+> **recovery speed 的差异已经可以在 worker type 内部出现，而不需要先诉诸“日本制度 vs 美国制度”。**
+
+这对 R3 是一个重要收缩：
+
+```text
+Re-entry Flexibility
+```
+
+不能只定义成国家制度变量。
+
+它还必须包含：
+
+```text
+worker-specific access to better offers
+mobility cost
+initial employer quality
+search capacity
+```
+
+## 13. Bottom group 是一个真正的 persistence case
+
+Bottom predicted-earnings quintile 的 employer-quality path：
+
+```text
+-0.0111
+-0.0087
+-0.0126
+```
+
+并没有表现出单调 catch-up。
+
+这与作者的解释一致：较弱势毕业生的 job mobility 更有限，更可能长期停留在 lower-paying employer / sector。
+
+所以 Project 01 到这里出现了一个比“国家 half-life”更有价值的研究对象：
+
+```text
+Who gets access to re-matching?
+```
+
+而不是只问：
+
+```text
+How flexible is the country?
 ```
