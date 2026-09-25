@@ -1,6 +1,6 @@
 # Project 01｜Recession Scar Half-life
 
-> Phase II status: **ACTIVE — Japan / US / Canada / Finland table-level extraction verified; Netherlands in progress**  
+> Phase II status: **ACTIVE — Japan / US / Canada / Finland table-level extraction verified; Netherlands summary verified with source gap documented**  
 > Primary target: **R3 Entry–Re-entry Hysteresis**
 
 这个项目不再问：
@@ -89,7 +89,7 @@ long-run asymptote
 
 ### 尚未完成
 
-- 从 van den Berge 提取更完整的 academic / vocational event-time coefficients；
+- Netherlands exact annual curve 暂停强行追取；保持 summary-verified，等待可核验 full-text / table source；
 - cross-study normalized path；
 - US public-data replication；
 - restricted-microdata replication；
@@ -110,6 +110,8 @@ long-run asymptote
 - [FIRST_RESULTS.md](FIRST_RESULTS.md)
 - [BASELINE_SYNTHESIS.md](BASELINE_SYNTHESIS.md)
 - [COMPARATIVE_RESULTS.md](COMPARATIVE_RESULTS.md)
+- [MECHANISM_MATRIX.md](MECHANISM_MATRIX.md)
+- [SOURCE_GAPS.md](SOURCE_GAPS.md)
 
 ---
 
