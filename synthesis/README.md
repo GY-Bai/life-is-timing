@@ -18,6 +18,12 @@
 4. [Testable Predictions](04_testable_predictions.md)  
    把六条候选规律转化为 event study、cross-country、LTV、re-entry、optionality 等可证伪预测。
 
+5. [Counterexample Audit](05_counterexample_audit.md)  
+   主动寻找六条规律的 null result、机制反转、margin substitution 与 measurement dispute。
+
+6. [Candidate Regularities V2](06_candidate_regularities_v2.md)  
+   经过反例审计后的推荐版本：从绝对规律收缩为有明确边界的 conditional regularities。
+
 这一步的研究原则：
 
 ```text
