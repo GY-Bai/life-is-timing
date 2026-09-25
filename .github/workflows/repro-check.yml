@@ -30,3 +30,9 @@ jobs:
 
       - name: Check canonical terminology
         run: python scripts/check_canonical_terms.py
+
+      - name: Audit recession-scar study registry
+        run: python scripts/audit_recession_scar_registry.py
+
+      - name: Test scar half-life estimator
+        run: python scripts/test_scar_half_life.py
