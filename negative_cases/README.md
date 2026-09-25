@@ -10,6 +10,8 @@
 
 1. [什么时候 recession-entry scar 会明显衰减](01_when_recession_scars_fade.md)
 2. [什么时候 slow stock 不决定恢复](02_when_slow_stock_is_bypassed.md)
+3. [高杠杆为什么有时不会立刻爆：fixed-rate 与 repricing delay](03_when_leverage_is_delayed.md)
+4. [有选择不等于有便宜的选择：Optionality 的 exercise cost](04_when_optionality_is_costly.md)
 
 以后新增 negative case 必须能回答：
 
