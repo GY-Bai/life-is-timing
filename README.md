@@ -349,16 +349,21 @@ Shock
 3. [年轻人如何利用这些规律破局：不是完美择时，而是避免被坏时点锁死](docs/03_youth_breakout_playbook.md)
 4. [Insider–Outsider 与人力资本管线：为什么冲击会集中到“还没上车的人”](docs/04_insider_outsider_and_human_capital_pipeline.md)
 5. [Career as Asset：年轻人真正配置的是 Human Capital Portfolio](docs/09_career_as_asset.md)
+6. [Intergenerational Timing Sandwich：为什么有些 cohort 同时错过职业与资产窗口](docs/10_intergenerational_timing_sandwich.md)
 
 ### B. 危机传导、慢变量与系统约束
 
-6. [Adjustment Margin 与流动性踩踏：为什么最先跌的未必是最差的资产](docs/05_adjustment_margins_and_liquidity.md)
-7. [Revenge of Underinvestment：重资产、人才与所有慢变量的共同结构](docs/06_revenge_of_underinvestment.md)
-8. [External Balance 与 Regime Shift：账永远能平，价格替你调整](docs/08_external_balance_and_regime_shift.md)
+7. [Adjustment Margin 与流动性踩踏：为什么最先跌的未必是最差的资产](docs/05_adjustment_margins_and_liquidity.md)
+8. [Revenge of Underinvestment：重资产、人才与所有慢变量的共同结构](docs/06_revenge_of_underinvestment.md)
+9. [External Balance 与 Regime Shift：账永远能平，价格替你调整](docs/08_external_balance_and_regime_shift.md)
 
 ### C. 宏观如何进入普通人的现金流
 
-9. [Customer Beta：为什么同一条街上的两家店，危机后的恢复速度可以完全不同](docs/07_customer_beta_and_local_business.md)
+10. [Customer Beta：为什么同一条街上的两家店，危机后的恢复速度可以完全不同](docs/07_customer_beta_and_local_business.md)
+
+### D. 研究纪律
+
+- [Research Status：研究状态与证据分层](RESEARCH_STATUS.md) —— 区分成熟文献、跨领域 synthesis 与待验证假设，避免把“合理机制”写成“已经证明”。
 
 这些专题最终围绕同一条主线：
 
