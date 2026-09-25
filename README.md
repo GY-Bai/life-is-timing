@@ -294,9 +294,15 @@ Claim Audit
 - 第一批 P0 定量与强断言已完成 [source verification](evidence/P0_VERIFIED_CLAIMS.md)；
 - 已建立 [Negative Cases](negative_cases/README.md)，主动寻找 timing 作用弱或机制被绕过的情形。
 
-第一批 P0 定量 claim 已完成核验，可复现数据层也已开始建立：
+第一批 P0 定量 claim 已完成核验，其中 C014、C020、C025 已推进到 design-level；C025 还在审计中发现并修复了 working-paper → QJE final version 的数字漂移。
 
-[data/README.md](data/README.md)
+可复现层已经建立：
+
+- [data/](data/README.md)
+- [reproducibility/](reproducibility/README.md)
+- [Phase I Closure Checklist](reproducibility/PHASE_I_CHECKLIST.md)
+
+仓库也加入最小 CI 检查，用于验证 derived claim、P0 registry 与 canonical terminology。
 
 ---
 
