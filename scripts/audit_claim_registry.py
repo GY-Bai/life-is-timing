@@ -11,6 +11,7 @@ ALLOWED = {
     "L1_primary_abstract",
     "L1_primary_exact_statement",
     "L1_authoritative_exact_statement",
+    "L2_design_verified",
 }
 
 rows = list(csv.DictReader(REGISTRY.open(newline="", encoding="utf-8")))
