@@ -215,6 +215,7 @@ Preserve Exercisable Optionality
 - [Synthesis](synthesis/README.md)：跨案例比较与反例审计；
 - [Evidence](evidence/README.md)：claim、证据、反证和 source verification；
 - [Methods](methods/README.md)：identification 与 red-team 规则；
+- [Negative Cases](negative_cases/README.md)：专门寻找 timing 作用弱、scar 衰减或 slow stock 被绕过的案例；
 - [Research Status](RESEARCH_STATUS.md)：哪些是 evidence、synthesis、hypothesis。
 
 ---
@@ -286,6 +287,12 @@ Claim Audit
 → Negative Cases
 → Reproducibility
 ```
+
+其中前三步已经开始执行：
+
+- 已建立 C001–C050 [Claims Ledger](evidence/CLAIMS_LEDGER.md)；
+- 第一批 P0 定量与强断言已完成 [source verification](evidence/P0_VERIFIED_CLAIMS.md)；
+- 已建立 [Negative Cases](negative_cases/README.md)，主动寻找 timing 作用弱或机制被绕过的情形。
 
 第一批 P0 定量 claim 已完成核验，可复现数据层也已开始建立：
 
