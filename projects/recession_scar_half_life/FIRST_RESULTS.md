@@ -202,3 +202,99 @@ Päällysaho 2017
 的 event-time extraction。
 
 只有在至少三种制度环境存在可比较 curve 后，才开始画 cross-study normalized paths。
+
+
+---
+
+# 5. United States｜Kahn 2010 exact Table 4 extraction
+
+Kahn 的 Table 4 现在已经进入 machine-readable curve。
+
+### National OLS
+
+```text
+year 1   -0.059
+year 5   -0.050
+year 10  -0.038
+year 15  -0.026
+```
+
+以 year-1 magnitude 为 reference：
+
+```text
+half target = 0.0295
+```
+
+在 year 10 与 15 之间做 descriptive linear interpolation：
+
+```text
+half-life ≈ 13.54 years
+```
+
+### National IV
+
+```text
+-0.074
+-0.059
+-0.040
+-0.022
+```
+
+descriptive half-life：
+
+```text
+≈ 10.83 years
+```
+
+### State IV
+
+```text
+-0.105
+-0.103
+-0.100
+-0.097
+```
+
+到 year 15 magnitude 仍远高于 year-1 的一半，因此：
+
+```text
+half-life > 15 years
+```
+
+是 right-censored。
+
+## 6. 一个新的方法论结果：half-life 对 specification 很敏感
+
+同一篇论文、同一批 NLSY79 white male college graduates：
+
+```text
+National OLS  ≈ 13.54 years
+National IV   ≈ 10.83 years
+State IV      >15 years
+```
+
+所以“美国 scar 的 half-life 是多少”本身就是一个过度简化的问题。
+
+更准确：
+
+> **Scar decay 取决于 exposure definition 与 identification variation。**
+
+这意味着未来 cross-country synthesis 必须同时保存：
+
+```text
+country
++
+sample
++
+treatment
++
+specification
+```
+
+不能只保存：
+
+```text
+country → one number
+```
+
+这也是为什么 Project 01 不会做国家 ranking。
